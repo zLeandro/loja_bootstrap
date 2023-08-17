@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 section-title">Oneway</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos" class="nav-link">
+                            <i class="bi bi-graph-up-arrow me-1"></i>
+                            Desempenho
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#estoque" class="nav-link">
+                            <i class="bi bi-box-seam me-1"></i>
+                            Nosso estoque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/slide1.jpg" alt="Placas de Video">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/slide2.jpg" alt="Processador">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="w-100" src="./imagens/slide3.jpeg" alt="Computador gamer">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/logo4.png" class="d-block w-100" alt="">
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <h2 class="section-title">Sobre <span>a loja</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, iure. Quae corrupti incidunt, totam adipisci molestias aliquid facere ipsum voluptas tenetur amet corporis iusto accusamus! Necessitatibus, ipsam! Quasi, numquam nihil.
+                            </p>
+                            <h3 class="section-title">Sobre <span>as marcas</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam commodi sit accusamus sed earum ipsa nisi, iure asperiores voluptate sapiente, obcaecati aliquid facere voluptatem. Facere dolores excepturi qui quam aspernatur.
+                            </p>
+                            <ul>
+                                <li>Intel</li>
+                                <li>AMD</li>
+                                <li>Geforce</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="jogos" >
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mt-5">Para todos <span>os jogos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="imagens/CSGO.jpg.webp" alt="Counter strike" class="d-block w-100 rounded mb-2">
+                        <h1 class="section-title fs-4"><span>Counter-Strike Global Offensive</span></h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magnam consequuntur dolores exercitationem harum recusandae sit culpa quos est quod voluptas temporibus atque perspiciatis natus cupiditate, rerum repudiandae explicabo deleniti.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/gtav.jpg" alt="Grand Theft Auto V" class="d-block w-100 rounded mb-2">
+                        <h1 class="section-title fs-4"><span>Grand Theft Auto V</span></h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magnam consequuntur dolores exercitationem harum recusandae sit culpa quos est quod voluptas temporibus atque perspiciatis natus cupiditate, rerum repudiandae explicabo deleniti.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/Forza.png" alt="Forza Horizon" class="d-block w-100 rounded mb-2">
+                        <h1 class="section-title fs-4"><span>Forza Horizon</span></h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam magnam consequuntur dolores exercitationem harum recusandae sit culpa quos est quod voluptas temporibus atque perspiciatis natus cupiditate, rerum repudiandae explicabo deleniti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="estoque" class="mt-5"> 
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span>Estoque</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-estoque">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#video" class="fw-bold text-start nav-link text-colored active">Placas de Vídeo</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#processadores" class="fw-bold text-start nav-link text-colored">Processadores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mae" class="fw-bold text-start nav-link text-colored">Placas mãe</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="video">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasvideo/GTX1080" alt="gtx 1080">
+                                        <h5 class="text-colored fw-bold mt-2">GTX 1080</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasvideo/RTX2060" alt="rtx 2060">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 2060</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasvideo/RTX3090.jpg" alt="rtx 3090">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 3090</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasvideo/RTX4070.jpg" alt="rtx 4070">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 4070</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasvideo/RTX2060" alt="rtx 2060">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 2060</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasvideo/RTX2060" alt="rtx 2060">
+                                        <h5 class="text-colored fw-bold mt-2">RTX 2060</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="processadores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/processadores/i5.jpg" alt="i5">
+                                        <h5 class="text-colored fw-bold mt-2">i5</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mt-2" src="imagens/estoque/processadores/i7.jpg" alt="i7">
+                                        <h5 class="text-colored fw-bold mt-2">i7</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/processadores/i9" alt="i9">
+                                        <h5 class="text-colored fw-bold mt-2">i9</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mt-2" src="imagens/estoque/processadores/i7.jpg" alt="i7">
+                                        <h5 class="text-colored fw-bold mt-2">i7</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mae">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasmae/mae1.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Placa mãe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mt-2" src="imagens/estoque/placasmae/mae2.jpg">
+                                        <h5 class="text-colored fw-bold mt-2">Placa mãe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasmae/mae3.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Placa mãe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mt-2" src="imagens/estoque/placasmae/mae1.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Placa mãe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasmae/mae3.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Placa mãe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/estoque/placasmae/mae3.jpg" >
+                                        <h5 class="text-colored fw-bold mt-2">Placa mãe</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span>conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="text" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                            <input type="tel" id="telefone" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem"></textarea>
+                        </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-hand-thumbs-up-fill text-colored"></i>
+                            <span>Redes sociais</span>
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4" >
+                        <h3 class="section-title fs-4">
+                            <i class="bi bi-cursor-fill text-colored"></i>
+                            <span>Endereço</span>
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo nº 123, Bairro Eletronicos - Canoinhas - SC
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
